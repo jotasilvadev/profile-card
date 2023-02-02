@@ -1,0 +1,53 @@
+html{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(227, 10%, 46%)
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+}
+img{
+    width: 150px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 320px;
+    min-height: 320px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.superior{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35vh;
+    /* height: 265px; */
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #ccc;
+}
+.inferior{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center; 
+    justify-content: space-around;     
+}
+
+.item{
+    text-align: center;
+    flex-basis: 30%;
+    font-weight: 700;
+}
+
+.superior li{
+    text-align: center;
+    margin: 5px;   
+}
+span{font-weight: 400;}
